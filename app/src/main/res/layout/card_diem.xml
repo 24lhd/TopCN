@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_item"
+    android:layout_marginBottom="@dimen/margin_item">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_item"
+        android:layout_marginTop="@dimen/margin_item"
+        android:background="@drawable/selecter"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/id_stt_diem"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margin_item"
+            android:minWidth="14sp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/md_black_1000"
+            android:layout_height="match_parent" />
+        <View
+            android:layout_width="1dp"
+            android:background="@color/md_blue_grey_100"
+            android:layout_margin="@dimen/margin_item"
+            android:layout_height="match_parent"></View>
+        <TextView
+            android:layout_width="48sp"
+            android:text="TL"
+            android:gravity="center"
+            android:id="@+id/id_diem_chu"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/md_red_500"
+            android:textStyle="bold"
+            android:layout_gravity="center|left"
+            android:layout_height="match_parent" />
+        <View
+            android:layout_width="1dp"
+            android:background="@color/md_blue_grey_100"
+            android:layout_margin="@dimen/margin_item"
+            android:layout_height="match_parent"></View>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Tên môn"
+                    android:textColor="@color/md_black_1000"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:textStyle="bold"
+                    android:id="@+id/id_ten_mon"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/margin_view"
+                    android:id="@+id/id_ma_mon"
+                    android:text="mã môn"
+                    android:singleLine="true"
+
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/md_grey_600"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margin_item"
+                android:layout_marginRight="@dimen/margin_item"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Số tín "
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:gravity="center"
+                    android:textColor="@color/md_grey_600"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:id="@+id/id_so_tin"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margin_item"
+                android:layout_marginRight="@dimen/margin_item"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Điểm TK "
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:gravity="center"
+                    android:textColor="@color/md_grey_600"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/id_diem_so"
+                    android:text="ttt"
+
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="left"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

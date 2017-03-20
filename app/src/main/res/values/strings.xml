@@ -1,0 +1,30 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="app_name">Top Công Nghiệp</string>
+    <string name="save_state_login">Lưu trạng thái đăng nhập</string>
+    <string name="un_save_state_login">Không lưu trạng thái đăng nhập</string>
+    <string name="hint_id">Mã sinh viên</string>
+    <string name="hint_sms">Nhập tin nhắn vào đây</string>
+    <string name="app_text">Only student</string>
+    <string name="ban_quyen_link"><em>Copyright  ©<em> 2017</em>, Lê Hồng Dương.</em></string>
+    <string name="feedback">Nội dung</string>
+    <string name="text_feedback">* Mọi ý kiến đóng góp sẽ được đến địa chỉ gacongnghiep.sv@gmail.com\n*Cảm ơn các bạn đã quan tâm!</string>
+    <string name="cick_noti"><u>Cick để tải file về máy</u></string>
+    <string name="ads_native_vua">ca-app-pub-5166837276445736/6318398607</string>
+    <string name="ads_native_nho">ca-app-pub-5166837276445736/3364932209</string>
+    <string name="ads_native_to">ca-app-pub-7062977963627166/6376488132</string>
+    <string name="ads_banner">ca-app-pub-7062977963627166/4760154131</string>
+    <string name="ads_full">ca-app-pub-7062977963627166/9329954530</string>
+    <string name="thong_bao_dialog">
+
+    </string>
+    <string name="text_view_off"></string>
+    <string name="text_frame_top_fragment_off">Bạn đang ở chế độ ngoại tuyến \n bật mạng và click vào đây để tải lại</string>
+    <string name="text_btnSearch_Trangchu">Mã sinh viên</string>
+    <string name="skip"><u>Bỏ qua</u></string>
+</resources>

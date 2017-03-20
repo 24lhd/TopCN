@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="@dimen/margin_view"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_marginTop="@dimen/margin_view"
+            android:layout_height="48dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Thay đổi giao diện"
+                android:id="@+id/title_change_ui"
+                android:gravity="center"
+                style="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_width="48dp"
+                android:id="@+id/imb_close_change_ui"
+                android:background="@color/colorWhite"
+                android:src="@android:drawable/ic_delete"
+                android:layout_height="48dp" />
+        </LinearLayout>
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/app_bar_layout_fm_top"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:id="@+id/tab_ui_layout"
+            app:tabTextAppearance="@style/capfale"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_view"
+            android:layout_height="48dp">
+            <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/A"
+            android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:shadowRadius="12"
+                android:layout_marginLeft="@dimen/margin_view"
+                android:onClick="onSelectUI"
+                android:shadowColor="@color/colorPrimary"
+                android:background="@color/B"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:shadowRadius="12"
+                android:layout_marginLeft="@dimen/margin_view"
+                android:onClick="onSelectUI"
+                android:shadowColor="@color/colorPrimary"
+                android:background="@color/C"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:shadowRadius="12"
+                android:layout_marginLeft="@dimen/margin_view"
+                android:onClick="onSelectUI"
+                android:shadowColor="@color/colorPrimary"
+                android:background="@color/D"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:shadowRadius="12"
+                android:layout_marginLeft="@dimen/margin_view"
+                android:onClick="onSelectUI"
+                android:shadowColor="@color/colorPrimary"
+                android:background="@color/E"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_view"
+        android:layout_height="48dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/L"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/M"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/O"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/P"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/Q"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_view"
+        android:layout_height="48dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/X"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/Y"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/Z"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/A2"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/B2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_view"
+        android:layout_height="48dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/H2"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/I2"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/K2"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/L2"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:shadowRadius="12"
+            android:layout_marginLeft="@dimen/margin_view"
+            android:onClick="onSelectUI"
+            android:shadowColor="@color/colorPrimary"
+            android:background="@color/O2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    </LinearLayout>

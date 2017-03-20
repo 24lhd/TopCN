@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.ads.NativeExpressAdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ads_navite_to"
+        android:layout_width="370dp"
+        android:layout_centerInParent="true"
+        ads:adUnitId="@string/ads_native_to"
+        ads:adSize="360x320"
+        android:layout_height="330dp">
+    </com.google.android.gms.ads.NativeExpressAdView>
+</RelativeLayout>
+

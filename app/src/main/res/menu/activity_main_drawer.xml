@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mn_top_he"
+            android:icon="@drawable/ic_map_black_48dp"
+            android:title="Top hệ" />
+        <item
+            android:id="@+id/mn_top_khoa"
+            android:icon="@drawable/ic_setup"
+            android:title="Top khóa" />
+        <item
+            android:id="@+id/mn_top_nganh"
+            android:icon="@drawable/ic_list_point"
+            android:title="Top ngành" />
+        <item
+            android:id="@+id/mn_top_lop"
+            android:icon="@drawable/ic_setup"
+            android:title="Top lớp" />
+        <item
+            android:id="@+id/mn_ca_nhan"
+            android:icon="@drawable/ic_change_ui"
+            android:title="Cá nhân" />
+        <item
+            android:id="@+id/mn_log_out"
+            android:icon="@drawable/ic_change_ui"
+            android:title="Nhập lại" />
+    </group>
+    <item android:title="Ngoài ra">
+        <menu>
+            <item
+                android:id="@+id/mn_feedback"
+                android:icon="@drawable/ic_danhngon"
+                android:titleCondensed="Lee duong"
+                android:title="Thông tin phát triển" />
+            <item
+                android:id="@+id/mn_help"
+                android:icon="@drawable/ic_danhngon"
+                android:titleCondensed="Lee duong"
+                android:title="Trợ giúp" />
+
+        </menu>
+    </item>
+    <item android:title="Ứng dụng khác">
+        <menu>
+            <item
+                android:id="@+id/mn_danh_ngon"
+                android:icon="@drawable/ic_class"
+                android:title="1001 danh ngôn" />
+        </menu>
+    </item>
+
+</menu>

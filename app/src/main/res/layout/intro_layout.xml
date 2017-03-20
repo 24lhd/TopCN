@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_intro"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="256dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_student"
+            android:layout_height="256dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/app_name"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_item"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/tv_version"
+            android:layout_marginTop="@dimen/margin_item"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\a931efe317ef408ecfdc140be6204afb029aa577\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d0f4d55a1bd8e1db1c3122be86861b86fb1b725\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_b4d7443cd98879f73b5d88a63941333280a93efc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\604c13f439fc5198b95af5e8f870a1c99a7ca47b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_104c47313f08174d9438c07fd15e22c7101aaf61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\69f7c1ea17709d0c1f45c11c91d26982cb7b7cf2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e729bfa032dc4a160f26467a66165da36da6af6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\ba7e202300bd835db39885865d14150b98997940\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_faa5444e60c0541b3eb70a952a9a8d7ba71258c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\652ebdd2c3c5944361e95f8b657e256850e68dd5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_02e2270228aac8eb7e84c2e7cc9ef584cca6e663\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android-studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_3fb6458fa1146399c0a233d2bc7ed659dc0177a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\bb1a39474499ab28cba451cbec9e306819e0b8bb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d499d3c8ea2d8ba6d528f44672912c564985c1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\f5edcd257e6e06a8a385f57520d3a48332166728\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_97ef05cc9fbc9f3bffc788e36d8c29a21f505549\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\f7550a099cae3214915484f08763a0d73f73b598\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8d3e617ca22ab161adf30ca6426a5d98d3076400\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\97431bd43d21b26712d643bdd2c67e873c9828cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_edeca523c256658d1a789579445aaefb3d02065f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\StartUp\TopHaui-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f32693f703ba1daeb901dbfda5155476802a9c23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\143cf300555db400f5ecf0d655e0a509c941adad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc2671b1dd481d8d607169f0fd9aecfcec387bec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\e31fff7f6a3d44f81328ebe0c283d0a885d9110b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17a11d32857eff4de1c3e41dbabeb889993974bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\9546f63df703417c3be78a75d5b28ac2982f0283\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf26f0317de45a7201223f2153bdf263b9c1df80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\aca0399516a83962906962acf7e434b678edcb57\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8db4ceb9df27b46b25eb5f426a0c3b2c8069ec8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\2f712d65b5887e2f386d5efb8549c52de413d94e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc985011b51603657d4496c157bc2f30f73defae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\1000e4cf9b6b1d34324992472f5b10a7c868fbf7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b6ae4a01ed0faaccb3f3cf7783282263290184f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\5b80fbcd54acd2fbf64df08d06bccfe59f59e2d9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_54e8185bec213d5b06027149c0fb4d02b8bd555c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\e4cb376747bdea9023f37877cf17371b03587e84\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8612e9ece7394729966bc486d0d26a6ae74371a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\392d59900907e3b12bcb87bba440d36ee3f86e85\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_78a2a654cd297ca0864d4a95df093a6474465dd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\ad4a909f1f8b080dfe59dbe4cc9ef91573aa2dc2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_faa10600cc6e283b439a8d802e307959aea3f484\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\cdf2c2a746fa224f384745b8ae9928f6e5c5ec7e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7945cc2c216f7813c3bbc689d7d4399f5e57ba75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\6d5637214db82a79ecde07ca2591c4787153e19d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05d7f0b2357da4f1feed74b69581b8a1ff810e24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\6397a2ef65a647fdac3a1fec62e81fac80f5b73e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_876524526c41bc6cf4e2fecf7d3f8ffd49000777\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\e7e2937167ef440885dd4c270463d587f24c57b8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f361d574452a3e620f537701264391a347502669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\2add770ee2c487bf7160e1c756f4d79624c15783\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f9180be4e4e3d17820be01c529552f557ad9148\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\6d711e473ee0bf8bc83e0026805faddb405114f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6518dfee95761f6b0fd29425113f98cd3d166f72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\d0fcdc89908a59d1218cd8c52cec938c17b2b233\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_733494e0e5e2042afe258607756e54ece0e8e7e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\24650784137ec5e7e091fcfec42a95e321adc6e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef1e13ff9b0f2c2b14fd9c4cea78714a41499d6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\13f8e7d3810bf0c6cae9391c3ed721634e520933\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7914832dbfdc2924f3dcb09199e0196b4df49b9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\816157c778b784ccd93efa6b9be200125bc095e5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2a82ded0c4002cdcbf5a7dcda606ceb74b074fe6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\13bfe388f2c8ba8ad98103c080e2db15b51f47d3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f706833b951445e952d8b3a25cdd99c3af90ddd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\f5a915e626ffd1edbe1aac4a7dc5520688640573\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_531c0f1f7920e99708aa73ca9412f0cbef468472\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\StartUp\TopHaui-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ca9a2631edeb95d684cef4d8897f20f1d29670d">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_40398fb475f00c0c189d1962ccc6fb197071a9d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\253568905189d25b78678dff96cbb16088ec1141\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4de010d31ae59b91df21da37387a5288e26ac175">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e9a328e64d227c19079d42fbac4fde6fc87397d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\669fd88f7e5ce39fe4eb71b8a1cfb1dffc73a36e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9decb4f229416249b8c774fb569cfc087e48bccf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\aa9320fae7c0bdca94ddf49b5986c2fd21bbca72\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_144a255ceee550c1a1ee340c332fa5e97fa0902f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\f748e955dc05b8302b2f2eb73e103b1d5b02a683\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c77bf12333f26f2adec3d34dc9c7835177d70c94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.0\2534c458682c73f5b9871131ab3098d3f987ca3\okio-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.0.0_9832ee1e5ac27a9b4ca0627ab16853853ad58510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\StartUp\TopHaui-master\app\libs\jsoup-1.10.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61f84a97f1a4f5905547b8b74afff8dc93f4cfce">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.10.2_417356a94bddf5d95d6708c0285636ad25298a5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\0fb24ca6f3060a38750cb7516a7a00515bc808f7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4221c69adb3bee2da34e9711bf046bbd6b3f23a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\2d14ed30bac642cefa99b61eed9691b4e6541f23\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_72421d34c1bcb01f0c11c8f8fd83d5ba8cce18e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\999e645f360d76931dd95382e13f83eafe9164dc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d177810ca6b925a2ac767e7973b5c52431214b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\1bf6775f127e1471d008b5c0f389abd1f6e5e177\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6f1d9607b986c433a63e333dd898683566ac69e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\28477e18e41bd08a0b7fff6cfd3f7b868d2ceb33\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f756609f698330f8ca23db9a112d97552cd4391\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\15f522d1f7b65499d16812492e330fce2dc5fa1e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f51db0f2405aa216d8b2e558f4359d789ea9044\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\815fee93fd1925400f3c7773aeac283985b834be\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6afd416353f1088022fd988c5ea3e4ec771705e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\f91ef7a2c9ef3124d779889913bab84abeb6d551\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6fd253c0a927008934386ea6210e5e283a7fa3d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\2e9181063beb420adb895decbbfbcd614d0c92c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8522b2edaeeb16b9ab32e3e40bcfb46078f98fd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\7c823ac7629c0ead5714a90aad21740f12e21c62\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01a0ee622359f4b2cb917e2e950e0b6d9d3e37bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\bf9d18f6849c6bbbfe9f5bdb22fbc3e4b56ff8fc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c70a65360f0c1ea1ecddd2ab7184184ffcc79255\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\172b891917bab0f162823ebce12135df5ca31085\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f54585a1e97a4b5c2c3501ee1183c8d151fc768\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\a017cf8aa2115c29e661fcb5cd0736d86f2990e9\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_42a442d8ea2994da7b3faab5e2b18e412c0b6896\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\a6a9dbf2e5e7ad61dcaf6c0e211624808422aa4a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32cfd63d1d59a6412671798957e61aec78b28b04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\4ba0643e9a6c9a21f921434a84801ddd088e5b9f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_033fd34a0d7734c84d66f951f194adbc1c55d58d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\41f5ba9dd2b5ec66a79a77de36b962689c3f506f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5813d8ae7602dadba8f1016ffba5a896feff5ace\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\484e5fc606b01e3f5e4bb4c704e0e2267b91cba4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a1e3a26c1349220472010a8cbd4f2db2095db7ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\4c6b57922fe889b331e89215acfec261b81d3692\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_048abe16323543710c012f43cdf76c321ec38224\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\f9879c0b709077fc4fd79303192ee2a7362ac7e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a82dcf326df5eea44f6b86b01eb343420d8baf9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\a017cf8aa2115c29e661fcb5cd0736d86f2990e9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e40f0c773149164d7a648c6ac223c3b6199b5ac3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\8dbeb8ae7f633dded3abe644c65f91ab2bf5c001\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ea33d99fad1fa7ccc135b6dadb6a08db33cbc20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\7b001ec8280d63285b2b9b06d5eae1694faac000\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43cba4e49ff5f3138bee5c4241cf6f97f309ce56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\0a96ec3f810b3ec790f76ebe0291d8fd9ab607a1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c97c156e9a3a6e164f14304b64a6567b745e977d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\e0a0fff369eca08e23ca87026e8a36dc8fe26c06\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9016febb5233af405d34b293920508c4e7f68e20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\7b0287c2427fc5f76f541478e20fec8ba9dbbd28\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c0f7c60552796ac7dc39419dc82af76323eed380\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\fa926a77f471719e77580fa24c1a7cc98c01e850\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f6239c0ea415dfa85fc986c9308f426116d78b87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\be5d30e38a4b577d2d0995d85889db15af9270d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01a8c6a09bcbf15420372b4404c0dcf058b7f629\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\8b8580911d1aa902fee6615db8bcbac45bd98c76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9bfba795ec8406cab477f574cc7259af3fe6d787\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\bcf44ee3ce613a092c9065001d21874f55a95e40\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f7e233224ea23ae4d1c13ad22eadefdb74083a0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\707c50a97710dd11978078c17e08d4ffb2c4f64c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d432cb13c6b3308f1f3ad613def6cd32edf6d17f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.android\build-cache\dc729e6f26e58c48a9edab914e183521ac0e53f4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe2a69fd9652e890d1952b6bdd0b7f4f067a0f66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\D\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.0.0\4c8d1536dba3812cc1592090dc20c47a4ed3c35e\okhttp-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="E:\StartUp\TopHaui-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.0.0_c2cefefc617823bc77e560820461f02652d0a9bd\classes.dex" />
+    </item>
+
+</items>
