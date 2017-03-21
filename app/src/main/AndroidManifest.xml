@@ -21,9 +21,15 @@
         <activity android:name="com.lhd.activity.Login"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name="com.lhd.activity.Test">
-
-
         </activity>
+        <service android:name="com.lhd.server.MyService"/>
+        <receiver android:name="com.lhd.recerver.MyReserver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

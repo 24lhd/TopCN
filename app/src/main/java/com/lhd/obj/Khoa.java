@@ -9,6 +9,10 @@ public class Khoa {
     private String nbatdau;
     private String nam;
 
+    public void setNam(String nam) {
+        this.nam = nam;
+    }
+
     @Override
     public String toString() {
         return "Khoa{" +

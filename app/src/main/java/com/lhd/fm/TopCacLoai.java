@@ -6,6 +6,7 @@ import android.os.Message;
 
 import com.lhd.activity.Main;
 import com.lhd.adaptor.ListSinhVien;
+import com.lhd.duong.ChucNangPhu;
 import com.lhd.duong.Conections;
 import com.lhd.obj.SinhVien;
 import com.lhd.task.GetJSONByLink;
@@ -32,7 +33,9 @@ public class TopCacLoai extends Frame {
                     showRecircleView();
                 }else showTextNull();
             }catch (NullPointerException e){
-//                startParser();
+                if (Conections.isOnline(getActivity()))
+                startParser();
+                else showTextNull();
             }
         }
     };
@@ -61,6 +64,7 @@ public class TopCacLoai extends Frame {
         showProgress();
         urlAPI=getArguments().getString(Main.LINK_TOP);
         id_tab=getArguments().getString(Main.ID_TAB);
+        ChucNangPhu.showLog("id_tab urlAPI"+id_tab+" "+urlAPI);
         if (Conections.isOnline(getActivity())&&geted==false){
             startParser();
             return;

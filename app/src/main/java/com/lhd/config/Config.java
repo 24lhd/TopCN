@@ -67,14 +67,15 @@ public class Config {
      * @return
      */
     public  String getLinkTopHe(String mahe, String nam) {
+        if (nam.equals("")) nam="0";
         return APP + "/api/tophe/"+mahe+"/"+nam;
     }
     public  String getLinkTopNganh(String mangang, String nam) {
-
+        if (nam.equals("")) nam="0";
         return  APP + "/api/topnganh/"+mangang+"/"+nam;
     }
     public  String getLinkTopKhoa(String k,String nbatdau, String nam) {
-
+        if (nam.equals("")) nam="0";
         return APP + "/api/topkhoa/"+k+"/"+nbatdau+"/"+nam;
     }
     public  String getLinkTopLop(String lop,String khoa ) {

@@ -9,6 +9,10 @@ public class He {
     private String tenhe;
     private String nam;
 
+    public void setNam(String nam) {
+        this.nam = nam;
+    }
+
     @Override
     public String toString() {
         return "He{" +

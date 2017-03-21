@@ -19,7 +19,6 @@ public class ThongBaoDtttc extends Frame {
         showProgress();
         itemNotiDTTCs=dulieu.getNotiDTTC();
         if (!itemNotiDTTCs.isEmpty()){
-            showRecircleView();
             setRecyclerView();
         }else loadData();
     }
@@ -31,12 +30,10 @@ public class ThongBaoDtttc extends Frame {
 
     public void setRecyclerView() {
         objects=new ArrayList<>();
+        showRecircleView();
         objects.addAll(itemNotiDTTCs);
-//        addNativeExpressAds();
-//         addNativeExpressAds(MainActivity.AD_UNIT_ID_KQHT,MainActivity.NATIVE_EXPRESS_AD_HEIGHT);
         ThongBaoDTTCAdaptor adapterNoti=new ThongBaoDTTCAdaptor(objects,recyclerView,this,itemNotiDTTCs);
         recyclerView.setAdapter(adapterNoti);
-        showRecircleView();
     }
     private Handler handler=new Handler(){
         @Override
@@ -46,11 +43,9 @@ public class ThongBaoDtttc extends Frame {
                 setRecyclerView();
                 if (!itemNotiDTTCs.isEmpty()){
                     dulieu.deleteItemNotiDTTC();
-                    for (ItemNotiDTTC itemNotiDTTC:itemNotiDTTCs) {
+                    for (ItemNotiDTTC itemNotiDTTC:itemNotiDTTCs)
                         dulieu.insertItemNotiDTTC(itemNotiDTTC);
-                    }
                 }
-
             }catch (NullPointerException e){
                 startParser();
             }

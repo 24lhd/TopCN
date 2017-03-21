@@ -33,7 +33,9 @@ public class KetQuaHocTapSinhVien extends Frame {
                     return;
                 }
             } catch (NullPointerException e) {
-//                startParser();
+                if (isOnline(getActivity()))
+                startParser();
+                else showTextNull();
             }
         }
     };

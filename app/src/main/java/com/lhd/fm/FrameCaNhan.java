@@ -40,6 +40,7 @@ public class FrameCaNhan extends Fragment {
     private LinearLayout linearLayout;
     private SinhVien sinhVien;
     private Main main;
+    private String msv;
     private AppBarLayout appBarLayout;
     private EditText etMSV;
     private ImageButton imageButton;
@@ -109,11 +110,13 @@ public class FrameCaNhan extends Fragment {
                 else if (!Conections.isOnline(getActivity()))Communication.showToast(main,"Không có kết nối Internet");
 
             } catch (NullPointerException e) {
-//                startParser();
+                if (Conections.isOnline(getActivity()))
+               setViewSinhVienByMSV(msv);
             }
         }
     };
     private void setViewSinhVienByMSV(String msv) {
+        this.msv=msv;
         main.getAdsFull().showADSFull();
             ParserSinhVien parserSinhVien = new ParserSinhVien(handler, getActivity());
             parserSinhVien.execute(msv);

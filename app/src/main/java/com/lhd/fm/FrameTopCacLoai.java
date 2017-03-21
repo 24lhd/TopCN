@@ -115,20 +115,24 @@ public class FrameTopCacLoai extends Fragment{
             Bundle bundle=new Bundle();
             if (content.contains(Main.KEY_TOP_HE)){
                 He he=hes.get(position);
-                bundle.putString(Main.LINK_TOP, main.getConfig().getLinkTopHe(he.getMahe(),he.getNam()));
-                bundle.putString(Main.ID_TAB, he.getMahe()+he.getNam());
+                String nam=he.getNam();
+                bundle.putString(Main.LINK_TOP, main.getConfig().getLinkTopHe(he.getMahe(),nam));
+
+                bundle.putString(Main.ID_TAB, he.getMahe()+nam);
                 topCacLoaiFragment.setArguments(bundle);
                 return topCacLoaiFragment;
             }else if (content.contains(Main.KEY_TOP_NGANH)){
                 Nganh nganh=nganhs.get(position);
-                bundle.putString(Main.LINK_TOP,  main.getConfig().getLinkTopNganh(nganh.getManganh(),nganh.getNam()));
-                bundle.putString(Main.ID_TAB, nganh.getManganh()+nganh.getNam());
+                String nam=nganh.getNam();
+                bundle.putString(Main.LINK_TOP,  main.getConfig().getLinkTopNganh(nganh.getManganh(),nam));
+                bundle.putString(Main.ID_TAB, nganh.getManganh()+nam);
                 topCacLoaiFragment.setArguments(bundle);
                 return topCacLoaiFragment;
             }else if (content.contains(Main.KEY_TOP_KHOA)){
                 Khoa khoa=khoas.get(position);
-                bundle.putString(Main.LINK_TOP,  main.getConfig().getLinkTopKhoa(khoa.getKhoa(),khoa.getNbatdau(),khoa.getNam()));
-                bundle.putString(Main.ID_TAB, khoa.getKhoa()+khoa.getNbatdau()+khoa.getNam());
+                String nam=khoa.getNam();
+                bundle.putString(Main.LINK_TOP,  main.getConfig().getLinkTopKhoa(khoa.getKhoa(),khoa.getNbatdau(),nam));
+                bundle.putString(Main.ID_TAB, khoa.getKhoa()+khoa.getNbatdau()+nam);
                 topCacLoaiFragment.setArguments(bundle);
                 return topCacLoaiFragment;
             }

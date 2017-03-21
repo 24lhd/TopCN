@@ -4,6 +4,7 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
+import com.lhd.duong.ChucNangPhu;
 import com.lhd.obj.ItemNotiDTTC;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -28,10 +29,13 @@ public class ParserNotiDTTC extends AsyncTask<String, Void, ArrayList<ItemNotiDT
         ArrayList<ItemNotiDTTC> itemNotiDTTCs = new ArrayList<>();
         String link = "https://dttc.haui.edu.vn/vn";
         try {
+            ChucNangPhu.showLog(link);
         Document doc = Jsoup.connect(link).get();
-        Elements a = doc.select("div.boxNews").select("ul").select("li").select("a");
+        Elements a = doc.select("div.boxnews_").select("ul").select("li").select("a");
         for (int j = 0; j < a.size(); j++) {
-            itemNotiDTTCs.add(new ItemNotiDTTC("https://dttc.haui.edu.vn"+a.get(j).attr("href"),a.get(j).html()));
+            ItemNotiDTTC itemNotiDTTC=new ItemNotiDTTC("https://dttc.haui.edu.vn"+a.get(j).attr("href"),a.get(j).html());
+            itemNotiDTTCs.add(itemNotiDTTC);
+            ChucNangPhu.showLog(itemNotiDTTC.toString());
         }
         } catch (IOException e) {
             e.printStackTrace();

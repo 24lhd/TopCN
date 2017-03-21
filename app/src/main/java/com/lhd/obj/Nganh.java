@@ -8,6 +8,7 @@ public class Nganh{
     private String manganh;
     private String nam;
 
+
     @Override
     public String toString() {
         return "Nganh{" +
@@ -22,6 +23,10 @@ public class Nganh{
 
     public String getNam() {
         return nam;
+    }
+
+    public void setNam(String nam) {
+        this.nam = nam;
     }
 
     public Nganh(String manganh, String nam) {
