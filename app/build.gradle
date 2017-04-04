@@ -6,7 +6,7 @@ android {
         applicationId "com.lhd.tophaui"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 2
+        versionCode 4
         versionName "1.0.1"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

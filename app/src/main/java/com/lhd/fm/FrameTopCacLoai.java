@@ -14,7 +14,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.lhd.activity.Main;
-import com.lhd.duong.ChucNangPhu;
 import com.lhd.duong.Communication;
 import com.lhd.duong.Conections;
 import com.lhd.obj.He;
@@ -53,7 +52,6 @@ public class FrameTopCacLoai extends Fragment{
         this.inflater=inflater;
         main = (Main) getActivity();
         content=getArguments().getString(KEY_CONTENT);
-        ChucNangPhu.showLog("content "+content);
         rootView = inflater.inflate(R.layout.frame_top_frament, container, false);
         hes= main.getHes();
         nganhs= main.getNganhs();

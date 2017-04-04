@@ -3,27 +3,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/mn_top_he"
-            android:icon="@drawable/ic_map_black_48dp"
+            android:icon="@drawable/top_he"
             android:title="Top hệ" />
         <item
             android:id="@+id/mn_top_khoa"
-            android:icon="@drawable/ic_setup"
+            android:icon="@drawable/top_khoa"
             android:title="Top khóa" />
         <item
             android:id="@+id/mn_top_nganh"
-            android:icon="@drawable/ic_list_point"
+            android:icon="@drawable/top_nganh"
             android:title="Top ngành" />
         <item
             android:id="@+id/mn_top_lop"
-            android:icon="@drawable/ic_setup"
+            android:icon="@drawable/top_lop"
             android:title="Top lớp" />
         <item
             android:id="@+id/mn_ca_nhan"
-            android:icon="@drawable/ic_change_ui"
+            android:icon="@drawable/ca_nhan"
             android:title="Cá nhân" />
         <item
             android:id="@+id/mn_log_out"
-            android:icon="@drawable/ic_change_ui"
+            android:icon="@drawable/logout"
             android:title="Nhập lại" />
     </group>
     <item android:title="Ngoài ra">

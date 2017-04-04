@@ -29,7 +29,6 @@ public class ParserNotiDTTC extends AsyncTask<String, Void, ArrayList<ItemNotiDT
         ArrayList<ItemNotiDTTC> itemNotiDTTCs = new ArrayList<>();
         String link = "https://dttc.haui.edu.vn/vn";
         try {
-            ChucNangPhu.showLog(link);
         Document doc = Jsoup.connect(link).get();
         Elements a = doc.select("div.boxnews_").select("ul").select("li").select("a");
         for (int j = 0; j < a.size(); j++) {
