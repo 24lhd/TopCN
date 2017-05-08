@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
-    defaultConfig{
+    defaultConfig {
         applicationId "com.lhd.tophaui"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 4
-        versionName "1.0.1"
+        versionCode 6
+        versionName "1.0.2"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -26,7 +26,6 @@ allprojects {
             url 'https://jitpack.io'
         }
     }
-
 }
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')

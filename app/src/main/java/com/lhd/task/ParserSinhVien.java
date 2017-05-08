@@ -109,7 +109,7 @@ public class ParserSinhVien extends AsyncTask<String, Void,SinhVien>{
                  */
 //                SinhVien sinhVien=null;
                 SinhVien sinhVien=parserSinhVien(msv,ten,lop,khoa,tl,nam);
-                if (!(sinhVien instanceof SinhVien)) sinhVien=config.getArraySinhVienByJson((new DuongHTTP()).getHTTP(GET_SV+params[0])).get(0);
+                if (sinhVien.getMa().isEmpty()) sinhVien=config.getArraySinhVienByJson((new DuongHTTP()).getHTTP(GET_SV+params[0])).get(0);
                 return sinhVien;
             } catch (Exception e) {
                 Log.e("faker"," TaskQLCL IOException");
