@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="SlideUp-Android-2.2.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/2c7083d13a92d4081f13fcfd53c3d5ea94cac744/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/2c7083d13a92d4081f13fcfd53c3d5ea94cac744/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/05b91f2641630262a40ffc5aac678baffefe79bc/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/05b91f2641630262a40ffc5aac678baffefe79bc/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

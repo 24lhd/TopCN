@@ -34,7 +34,6 @@ public class ParserNotiDTTC extends AsyncTask<String, Void, ArrayList<ItemNotiDT
         for (int j = 0; j < a.size(); j++) {
             ItemNotiDTTC itemNotiDTTC=new ItemNotiDTTC("https://dttc.haui.edu.vn"+a.get(j).attr("href"),a.get(j).html());
             itemNotiDTTCs.add(itemNotiDTTC);
-            ChucNangPhu.showLog(itemNotiDTTC.toString());
         }
         } catch (IOException e) {
             e.printStackTrace();

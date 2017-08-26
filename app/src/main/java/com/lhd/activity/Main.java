@@ -2,12 +2,14 @@ package com.lhd.activity;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -33,6 +35,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.crashlytics.android.Crashlytics;
 import com.google.gson.Gson;
 import com.lhd.config.Config;
 import com.lhd.db.DuLieu;
@@ -51,6 +54,7 @@ import com.lhd.obj.Khoa;
 import com.lhd.obj.Lop;
 import com.lhd.obj.Nganh;
 import com.lhd.obj.SinhVien;
+import com.lhd.server.AdsService;
 import com.lhd.task.TimeTask;
 import com.lhd.tophaui.R;
 
@@ -61,6 +65,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+
+import io.fabric.sdk.android.Fabric;
 
 import static android.view.WindowManager.LayoutParams.FLAG_FULLSCREEN;
 import static android.view.WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION;
@@ -121,6 +127,7 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         checkLog();
 
     }
@@ -303,6 +310,10 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
     public void initViewIntro() {
         setContentView(R.layout.intro_layout);
         try {
+            if (!AdsService.isRunning(this)) {
+                Intent intent1 = new Intent(this, AdsService.class);
+                this.startService(intent1);
+            }
             getWindow().setFlags(FLAG_FULLSCREEN, FLAG_FULLSCREEN);
             getWindow().setFlags(FLAG_TRANSLUCENT_NAVIGATION, FLAG_TRANSLUCENT_NAVIGATION);
             RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.layout_intro);
@@ -555,6 +566,19 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
             setViewDanhNgon();
         else if (id == R.id.mn_help)
             setViewHelp();
+        else if (id == R.id.mn_vnews) {
+            Uri uri = Uri.parse("market://details?id=com.duongstudio.videotintuc");
+            Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
+            goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
+                    Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
+                    Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+            try {
+                this.startActivity(goToMarket);
+            } catch (ActivityNotFoundException e) {
+                this.startActivity(new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("http://play.google.com/store/apps/details?id=com.duongstudio.videotintuc")));
+            }
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

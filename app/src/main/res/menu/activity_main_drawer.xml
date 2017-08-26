@@ -31,22 +31,26 @@
             <item
                 android:id="@+id/mn_feedback"
                 android:icon="@drawable/ic_danhngon"
-                android:titleCondensed="Lee duong"
-                android:title="Thông tin phát triển" />
+                android:title="Thông tin phát triển"
+                android:titleCondensed="Lee duong" />
             <item
                 android:id="@+id/mn_help"
                 android:icon="@drawable/ic_danhngon"
-                android:titleCondensed="Lee duong"
-                android:title="Trợ giúp" />
+                android:title="Trợ giúp"
+                android:titleCondensed="Lee duong" />
 
         </menu>
     </item>
     <item android:title="Ứng dụng khác">
         <menu>
             <item
+                android:id="@+id/mn_vnews"
+                android:icon="@drawable/ic_class"
+                android:title="Video tin tức" />
+            <item
                 android:id="@+id/mn_danh_ngon"
                 android:icon="@drawable/ic_class"
-                android:title="1001 danh ngôn" />
+                android:title="Tổng hợp danh ngôn" />
         </menu>
     </item>
 

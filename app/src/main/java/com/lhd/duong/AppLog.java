@@ -17,7 +17,6 @@ public class AppLog {
         editor=preferences.edit();
     }
     public void putValueByName(Context context,String logName,String name,String value) {
-        openLog(context,logName);
         editor.putString(name,value);
         editor.commit();
     }
